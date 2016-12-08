@@ -1,0 +1,1250 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: "SFUIDisplay-Regular" !important;
+    color: #5D5D5D;
+    background: white;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+    position: relative;
+    z-index: 3;
+    font-family: "SFUIDisplay-Regular";
+}
+
+/* NAV */
+
+.all {
+    background: white;
+    width: 100%;
+}
+
+.menu_btn {
+    display: none;
+}
+
+.all_adp {
+    display: none;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+nav.adp ul.menu {
+    display: block;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    margin: 15px auto;
+    z-index: 5;
+}
+
+nav.adp ul.menu li a,
+nav.adp ul.menu li div {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-family: "SFUIDisplay-Regular";
+}
+
+nav.pk {
+    width: 100%;
+    min-height: 80px;
+    position: relative;
+    background: #F0F5F6;
+    padding-top: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+nav.pk ul.menu {
+    display: block;
+    padding: 0;
+    list-style: none;
+    width: 1170px;
+    margin: 0 auto;
+    z-index: 5;
+    padding-left: 10px;
+}
+
+nav.pk ul.menu:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+nav.pk ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+nav.pk ul.menu li img {
+    height: 60px;
+    margin-right: 25px;
+}
+
+nav.pk ul.menu > li:last-child {
+    float: right;
+}
+
+nav.pk ul.menu > li div,
+nav.pk ul.menu > li a {
+    display: block;
+    padding: 15px 10px;
+    color: #506580;
+    height: 100%;
+    z-index: 5;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: "SFUIDisplay-Regular";
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+nav.pk ul.menu > li div:hover,
+nav.pk ul.menu > li a:hover {
+    outline: solid 2px #506580;
+}
+
+nav.pk ul.menu > li div:active,
+nav.pk ul.menu > li a:active {
+    background: white;
+    outline: solid 2px #506580;
+}
+
+/* SLIDER */
+
+header {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+header .adap_img {
+    display: none;
+}
+
+.slider .img_container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+}
+
+.slider .img_container img.adap {
+    position: relative;
+    z-index: 0;
+}
+
+.slider .img_container .img1 {
+    z-index: 1;
+}
+
+.slider .img_container .img2 {
+    z-index: 2;
+}
+
+.slider .sl_text {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    height: 200px;
+    margin-top: -100px;
+}
+
+.slider .sl_text .opacity {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: black;
+    opacity: .42;
+    z-index: 10;
+}
+
+.slider .sl_text .sltxt {
+    position: relative;
+    color: white;
+    z-index: 11;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-family: "SFUIDisplay-Regular";
+}
+
+.slider .sl_text .sltxt.big {
+    height: 54px;
+    font-family: "SFUIDisplay";
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
+    margin-top: 45px;
+}
+
+.slider .sl_text .sltxt.little {
+    height: 30px;
+    font-family: "SFUIDisplay";
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.slider .sl_text .arr {
+    position: absolute;
+    height: 60px;
+    width: 39px;
+    top: 50%;
+    margin-top: -30px;
+    z-index: 12;
+}
+
+.slider .sl_text .arr:hover {
+    cursor: pointer;
+}
+
+.slider .sl_text .arr.prv {
+    left: 45px;
+    background: url(../img/ar_prv.png);
+}
+
+.slider .sl_text .arr.prv:hover {
+    left: 45px;
+    background: url(../img/ar_prv_2.png);
+}
+
+.slider .sl_text .arr.nxt {
+    right: 45px;
+    background: url(../img/ar_nxt.png);
+}
+
+.slider .sl_text .arr.nxt:hover {
+    right: 45px;
+    background: url(../img/ar_nxt_2.png);
+}
+
+/* MAIN */
+
+main {
+    overflow: hidden;
+    width: 100%;
+}
+
+main .content {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+main .content .block:first-child {
+    margin-top: 65px;
+    min-height: 488px;
+    padding-top: 60px;
+}
+
+main .content .block:first-child:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+main .content .block {
+    width: 100%;
+    min-height: 200px;
+    position: relative;
+}
+
+main .block .drk {
+    position: absolute;
+    margin-left: -9999px;
+    padding-left: 9999px;
+    margin-right: -9999px;
+    padding-right: 9999px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+main .block .drk.c1 {
+    background: #F7F7F7;
+}
+
+main .block .trio2,
+main .block .trio1 {
+    overflow: hidden;
+}
+
+main .block .trio {
+    float: left;
+    width: 33%;
+    position: relative;
+    margin: 0;
+    z-index: 2;
+}
+
+main .block .trio.t1 {
+    padding-right: 20px;
+}
+
+main .block .trio.t2 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+main .block .trio.t3 {
+    padding-left: 20px;
+}
+
+main .block .trio .blk {
+    background: white;
+    position: relative;
+    overflow: hidden;
+    height: 164px;
+    margin-bottom: 40px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+main .block .trio .blk img {
+    display: block;
+    margin: 25px auto 15px;
+}
+
+main .block .trio .blk .txt {
+    width: 100%;
+    height: 64px;
+    font-family: "SFUIDisplay-Light";
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    color: #5d5d5d;
+    padding: 0 20px;
+    display: block;
+}
+
+h2 {
+    color: #5C5C5C;
+    text-align: center;
+    font-family: "SFUIDisplay-Light";
+    font-size: 36px;
+    line-height: 1.2;
+    color: #5d5d5d;
+    z-index: 3;
+    position: relative;
+}
+
+h2.upper {
+    text-transform: uppercase;
+    margin: 60px 0 40px;
+}
+
+main .block > hr {
+    margin: 60px 0;
+    height: 4px;
+    border: 0;
+    background-color: #f0f5f6;
+}
+
+/* BN_SLIDER */
+main .block .bn_slider {
+    min-height: 420px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+main .block .bn_slider .sl_prv,
+main .block .bn_slider .sl_nxt {
+    display: none;
+}
+
+main .block .bn_slider .sl_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+main .block .bn_slider ul.sl_items2 {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+main .block .bn_slider ul.sl_items2 li {
+    width: 25%;
+    height: 800px;
+    margin: 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+main .block .bn_slider ul.sl_items2 li .b-wrap {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    background: #F0F5F6;
+
+}
+
+main .block .bn_slider ul.sl_items2 li:first-child .b-wrap {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main .block .bn_slider ul.sl_items2 li:nth-child(2) .b-wrap,
+main .block .bn_slider ul.sl_items2 li:nth-child(3) .b-wrap {
+    margin: 0 10px;
+}
+
+main .block .bn_slider ul.sl_items2 li:last-child .b-wrap {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+main .block .bn_slider ul.sl_items2 li .b-wrap .blue .btn:hover {
+    border: 2px solid #bc2330;
+}
+
+main .block .bn_slider ul.sl_items2 li .b-wrap .head {
+    background: #54647F;
+    color: white;
+    font-family: "SFUIDisplay-Bold";
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 5px;
+}
+
+main .block .bn_slider ul.sl_items2 li .b-wrap .blue {
+    background: #ECF1F2;
+    padding: 10px;
+    height: 660px;
+    border: 1px solid #d8d8d8;
+    position: relative;
+}
+
+main .block .bn_slider ul.sl_items2 li .b-wrap .blue span {
+    font-family: "SFUIDisplay-Medium";
+    font-size: 14px;
+    color: #5d5d5d;
+    display: block;
+    margin: 10px 0;
+}
+
+main .block .bn_slider ul.sl_items2 li .b-wrap .blue hr {
+    height: 2px;
+    border: 1px solid #d8d8d8;
+    margin: 15px 0;
+}
+
+main .block .bn_slider ul.sl_items2 li .b-wrap .blue a {
+    font-family: "SFUIDisplay-Regular";
+    font-size: 14px;
+    color: #2196f3;
+}
+
+main .block .bn_slider ul.sl_items2 li .b-wrap .blue .btn {
+    height: 62px;
+    color: #bc2330;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: "SFUIDisplay-Bold";
+    font-size: 20px;
+    line-height: 1.1;
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    right: 10px;
+}
+
+
+/* RV_SLIDER */
+
+main .block .reviews .rv_slider {
+    min-height: 420px;
+    position: relative;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+main .block .reviews .rv_slider .sl_prv,
+main .block .reviews .rv_slider .sl_nxt {
+    position: absolute;
+    top: 50%;
+    width: 39px;
+    height: 60px;
+    margin-top: -55px;
+    z-index: 10;
+}
+
+main .block .reviews .rv_slider .sl_prv {
+    background: url(../img/ar_prv_2.png);
+    background-size: 100% 100%;
+    left: -50px;
+}
+
+main .block .reviews .rv_slider .sl_nxt {
+    background: url(../img/ar_nxt_2.png);
+    background-size: 100% 100%;
+    right: -50px;
+}
+
+main .block .reviews .rv_slider .sl_prv:hover {
+    background: url(../img/ar_prv_3.png);
+    background-size: 100% 100%;
+    left: -50px;
+    cursor: pointer;
+}
+
+main .block .reviews .rv_slider .sl_nxt:hover {
+    background: url(../img/ar_nxt_3.png);
+    background-size: 100% 100%;
+    right: -50px;
+    cursor: pointer;
+}
+
+main .block .reviews .sl_container {
+    min-height: 385px;
+    width: 100%;
+    overflow: hidden;
+}
+
+main .block .reviews ul.sl_items {
+    min-height: 385px;
+    width: 355%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+main .block .reviews ul.sl_items li {
+    width: 12.5%;
+    height: 365px;
+    margin: .8%;
+    float: left;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    background: #F0F5F6;
+    padding: 60px 40px 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+main .block .reviews ul.sl_items li:hover {
+    background: #F7F7F7;
+    cursor: pointer;
+}
+
+main .block .reviews ul.sl_items li:hover > div.it_btn a {
+    background: white;
+}
+
+main .block .reviews ul.sl_items li div.it_txt span:first-child {
+    font-family: "SFUIDisplay-Regular";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.33;
+    color: #5d5d5d;
+    display: block;
+}
+
+main .block .reviews ul.sl_items li div.it_txt span:last-child {
+    font-family: "SFUIDisplay-Regular";
+    font-size: 14px;
+    font-weight: normal;
+    color: #4a4a4a;
+    display: block;
+    margin: 10px 0;
+}
+
+main .block .reviews ul.sl_items li div.it_btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    text-align: center;
+}
+
+main .block .reviews ul.sl_items li div.it_btn a {
+    padding: 10px 20px;
+    border: 2px solid #5d5d5d;
+    color: #5d5d5d;
+}
+
+/* RV_SLIDER RADIO */
+
+main .block .reviews .sl_radio {
+    overflow: hidden;
+    position: relative;
+}
+
+.sl_nav {
+    width: 110px;
+    height: 50px;
+    margin: 10px auto 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    padding-top: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul.sl_nav li {
+    position: relative;
+    list-style: none;
+    padding: 0 10px;
+    float: left;
+}
+
+ul.sl_nav input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+}
+
+ul.sl_nav input[type="radio"] + label > span {
+    position: relative;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: 2px solid #5d5d5d;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul.sl_nav input[type="radio"]:checked + label > span span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #5d5d5d;
+    border: 1px solid #5d5d5d;
+    display: inline-block;
+}
+
+ul.sl_nav label:hover {
+    cursor: pointer;
+}
+
+/* PROFI CENTER */
+
+main .block.profi_cntr {
+    padding: 60px 0;
+    position: relative;
+}
+
+main .block .drk.c2 {
+    background: #506580;
+}
+
+main .block .wt_txt {
+    z-index: 3;
+    position: relative;
+    font-family: "SFUIDisplay-Regular";
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 40px 200px 0;
+}
+
+main .block.tr {
+    padding: 20px 5px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+main .block .trio-wrap {
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    padding: 0;
+    background: white;
+    margin: 40px 0;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+main .block .trio-wrap .trio {
+    padding: 30px;
+    margin: 0;
+    width: 33.333%;
+}
+
+main .block .trio-wrap .trio ul li {
+    position: relative;
+    margin: 10px 0 10px 22px;
+}
+
+main .block .trio-wrap .trio ul li:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #4E627C;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: -22px;
+    z-index: 3;
+}
+
+main .block .trio-wrap .trio ul li:after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 7px;
+    left: -17px;
+    z-index: 10;
+}
+
+main .block .trio-wrap .trio:nth-child(3) ul li:before {
+    background: #B42637;
+}
+
+main .block .trio-wrap .grey {
+    position: absolute;
+    top: 0;
+    left: 33.333%;
+    right: 33.333%;
+    bottom: 0;
+    background: #F7F7F7;
+}
+
+main .block.plan {
+    padding-top: 50px;
+}
+
+main .block .img_plan {
+    margin: 40px auto;
+    width: 100%;
+}
+
+main .block.news {
+    padding: 50px 0 10px;
+    margin-bottom: 60px;
+}
+
+main .block .drk.c4 {
+    background: #F0F5F6;
+}
+
+main .block article {
+    position: relative;
+    z-index: 3;
+    margin: 30px auto 50px;
+    overflow: hidden;
+    width: 85%;
+}
+
+main .block article > img {
+    width: 270px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+main .block article > div > div {
+    margin-bottom: 15px;
+    font-family: "SFUIDisplay-Regular";
+    font-size: 14px;
+    line-height: 1.2;
+    color: #5d5d5d;
+}
+
+main .block article .art_tag {
+    background: white;
+    font-family: "SFUIDisplay-Medium";
+    font-size: 14px;
+    text-align: center;
+    color: #506580;
+    display: inline-block;
+    padding: 10px 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+main .block article a {
+    font-family: "SFUIDisplay-Regular";
+    font-size: 14px;
+    line-height: 1.4;
+    color: #5d5d5d;
+}
+
+main .block ul.tags {
+    position: relative;
+    z-index: 3;
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 40px;
+}
+
+main .block ul.tags li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+main .block ul.tags li a {
+    padding: 10px 30px;
+    border: solid 2px #506580;
+    color: #506580;
+}
+
+main .block ul.tags li a:hover {
+    background: #54647F;
+    color: white;
+}
+
+main .block.photo {
+    height: 350px;
+    margin-bottom: 50px;
+    padding: 60px 0;
+}
+
+main .block.photo .back_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../img/back.png);
+    z-index: 1;
+    margin-left: -200px;
+    padding-left: 200px;
+    margin-right: -200px;
+    padding-right: 200px;
+}
+
+main .block.photo .white {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "SFUIDisplay-Light";
+    font-size: 18px;
+    line-height: 0.9;
+}
+
+main .block.photo .white.bg {
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+main .block.photo .white.bg .phone {
+    position: relative;
+}
+
+main .block.photo .white.bg .phone:before {
+    content: url(../img/phone.png);
+    position: absolute;
+    top: 4px;
+    left: -43px;
+}
+
+main .block.photo .white .or {
+    position: relative;
+}
+
+main .block.photo .white .or:after,
+main .block.photo .white .or:before {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #f7f7f7;
+    position: absolute;
+    top: 12px;
+}
+
+main .block.photo .white .or:before {
+    left: -50px;
+}
+
+main .block.photo .white .or:after {
+    right: -50px;
+}
+
+main .block.photo .white.btn {
+    margin-top: 50px;
+}
+
+main .block.photo .white a.white {
+    border: 1px solid white;
+    padding: 15px 25px;
+    font-family: "SFUIDisplay-Medium";
+    font-size: 14px;
+    text-align: center;
+}
+
+main .block ul.partners {
+    text-align: center;
+    margin: 40px -55px;
+}
+
+main .block ul.partners li {
+    width: 16%;
+    display: inline-block;
+}
+
+main .block ul.partners li div {
+    margin: 30px auto;
+    display: inline-block;
+}
+
+main .block ul.partners li div a {
+    display: table-cell;
+    height: 42px;
+    width: 120px;
+    background: #F0F5F6;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle;
+    position: relative;
+}
+
+main .block ul.partners li div a img {
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    overflow: hidden;
+    min-height: 700px;
+    width: 100%;
+}
+
+footer .duo {
+    width: 50%;
+    float: left;
+    height: 700px;
+}
+
+footer .duo:first-child {
+    background: #54647F;
+}
+
+footer .duo .duo-wrap {
+    width: 585px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+    padding: 80px 40px 40px 0;
+}
+
+footer .duo h2 {
+    color: white;
+    font-family: "SFUIDisplay-Light";
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+footer .duo form {
+    width: 100%;
+    overflow: hidden;
+}
+
+footer .duo form div {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid white;
+}
+
+footer .duo form div:nth-child(3) {
+    margin-bottom: 40px;
+}
+
+footer .duo form label {
+    width: 25%;
+    float: left;
+    display: block;
+    height: 60px;
+    padding: 20px 0;
+    font-family: "SFUIDisplay-Light";
+    font-size: 18px;
+    line-height: 0.9;
+}
+
+footer .duo form input[type="text"],
+footer .duo form input[type="email"],
+footer .duo form textarea {
+    display: block;
+    width: 100%;
+    color: white;
+    background: #54647F;
+    width: 75%;
+    float: right;
+    border: 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer .duo form input[type="text"],
+footer .duo form input[type="email"] {
+    height: 60px;
+}
+
+footer .duo form textarea {
+    resize: none;
+    padding-top: 20px;
+}
+
+footer .duo form input[type="submit"] {
+    float: right;
+    background: #54647F;
+    border-radius: 0;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+footer .duo .copy {
+    margin-top: 40px;
+    font-family: "SFUIDisplay-Light";
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+footer .duo ul.soc {
+    margin-top: 20px;
+}
+
+footer .duo ul.soc li {
+    float: left;
+    margin-right: 15px;
+}
+
+/* MODAL WINDOWS */
+/* MODAL ENTER */
+
+.modal_pass,
+.modal_reg,
+.modal_enter {
+    display: none;
+    background: #54647F;
+    position: fixed;
+    z-index: 60;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mdl .modal_close {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.mdl .modal_close img {
+    width: 35px;
+    height: 35px;
+}
+
+.mdl .box {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    display: none;
+    margin-top: -250px;
+    margin-left: -250px;
+}
+
+.mdl .box div {
+    color: white;
+}
+
+.mdl h2 {
+    color: white;
+    font-family: "SFUIDisplay";
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.17;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.mdl form {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.mdl form .lined {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.mdl form label {
+    width: 25%;
+    float: left;
+    display: block;
+    height: 60px;
+    padding: 20px 0;
+    font-family: "SFUIDisplay-Light";
+    font-size: 18px;
+    line-height: 0.9;
+}
+
+.mdl form input[type="email"],
+.mdl form input[type="text"],
+.mdl form input[type="password"] {
+    display: block;
+    width: 100%;
+    color: white;
+    background: #54647F;
+    width: 75%;
+    float: right;
+    border: 0;
+    padding: 10px;
+    font-size: 14px;
+    height: 60px;
+}
+
+.mdl form div:not(.lined) {
+    color: white;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    font-family: "SFUIDisplay";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.21;
+}
+
+.mdl .forgot {
+    margin-top: 20px;
+}
+
+.mdl form input[type="submit"] {
+    background: white;
+    border-radius: 0;
+    color: #54647F;
+    padding: 10px 50px;
+    cursor: pointer;
+    border: 0;
+    margin: 20px auto;
+    display: block;
+}
+
+.mdl form input[type="submit"]:hover {
+    background: #B42637;
+    color: white;
+}
+
+.mdl .mdl_a {
+    cursor: pointer;
+    position: relative;
+}
+
+.mdl .mdl_a:hover {
+    text-decoration: underline;
+}
+
+.mdl .mdl_a:after {
+    content: url(../img/ar.png);
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 24px;
+    height: 15px;
+    font-family: "SFUIDisplay";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 0.94;
+}
+
+

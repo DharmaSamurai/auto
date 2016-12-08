@@ -1,0 +1,503 @@
+@media all and (max-width: 1300px) {
+    main .block .reviews .rv_slider {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    main .block .reviews ul.sl_items li div.it_txt span:first-child {
+        font-size: 16px;
+    }
+
+    main .block .reviews ul.sl_items li div.it_txt span:last-child {
+        font-size: 12px;
+    }
+
+    main .block .bn_slider .sl_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 1170px) {
+    nav.pk ul.menu,
+    main .content {
+        width: 100%;
+    }
+
+    main .content .block:first-child {
+        padding-left: 10px;
+    }
+
+    main .block .reviews .rv_slider {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    main .block ul.partners {
+        margin: 40px 0;
+    }
+
+    footer .duo .duo-wrap {
+        width: 100%;
+        float: right;
+        overflow: hidden;
+        position: relative;
+        padding: 40px 20px 20px 20px;
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+    nav.pk ul.menu {
+        text-align: center;
+    }
+
+    nav.pk ul.menu > li:first-child {
+        display: block;
+    }
+
+    nav.pk ul.menu > li:last-child,
+    nav.pk ul.menu > li {
+        float: none;
+        display: inline-block;
+    }
+
+    .slider .sl_text .sltxt.big {
+        height: 54px;
+        font-family: SFUIDisplay-Regular;
+        font-size: 34px;
+        line-height: 1;
+        letter-spacing: 1.2px;
+        margin-top: 45px;
+    }
+
+    .slider .sl_text .sltxt.little {
+        height: 30px;
+        font-family: OpenSans;
+        font-size: 18px;
+        line-height: 1.1;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    main .block .trio {
+        width: 50%;
+    }
+
+    main .block .trio.t1,
+    main .block .trio.t2,
+    main .block .trio.t3 {
+        padding: 0 20px;
+    }
+
+    main .block .trio .blk .txt {
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    main .block .wt_txt {
+        margin: 40px 100px 0;
+    }
+
+    main .block ul.partners {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    main .block ul.partners li {
+        width: 20%;
+        display: inline-block;
+    }
+
+    main .block .reviews ul.sl_items li {
+        padding: 20px;
+    }
+
+    main .block .bn_slider .sl_container {
+        width: 80%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    main .block .bn_slider ul.sl_items2 {
+        width: 200%;
+    }
+
+    main .block .bn_slider .sl_prv,
+    main .block .bn_slider .sl_nxt {
+        position: absolute;
+        top: 50%;
+        width: 39px;
+        height: 60px;
+        margin-top: -55px;
+        z-index: 10;
+        display: block;
+    }
+
+    main .block .bn_slider .sl_prv {
+        background: url(../img/ar_prv_2.png);
+        background-size: 100% 100%;
+        left: 10px;
+    }
+
+    main .block .bn_slider .sl_nxt {
+        background: url(../img/ar_nxt_2.png);
+        background-size: 100% 100%;
+        right: 10px;
+    }
+
+    main .block .bn_slider .sl_prv:hover {
+        background: url(../img/ar_prv_3.png);
+        background-size: 100% 100%;
+        left: 10px;
+        cursor: pointer;
+    }
+
+    main .block .bn_slider .sl_nxt:hover {
+        background: url(../img/ar_nxt_3.png);
+        background-size: 100% 100%;
+        right: 10px;
+        cursor: pointer;
+    }
+
+}
+
+@media all and (max-width: 830px) {
+    body {
+        background: #54647F;
+    }
+
+    nav.pk ul.menu li:not(.intact) {
+        display: none;
+    }
+
+    nav.pk ul.menu {
+        position: relative;
+    }
+
+    nav.pk ul.menu > li:last-child {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+    }
+
+    .menu_btn {
+        display: block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: url('../img/menu.png') no-repeat;
+        top: 20px;
+        left: 20px;
+        z-index: 50;
+        cursor: pointer;
+    }
+
+    .all_adp {
+        display: block;
+        width: 85%;
+        margin-left: -85%;
+        background: #54647F;
+        overflow: hidden;
+        min-height: 300px;
+        position: absolute;
+        color: white;
+    }
+
+    header .adap_img {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    header .slider {
+        display: none;
+    }
+
+    main .block .wt_txt {
+        margin: 40px 50px 0;
+    }
+
+
+
+    main .block .trio-wrap {
+        margin: 40px 20px;
+    }
+
+    main .block .trio-wrap .trio {
+        padding: 30px;
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+
+    main .block .trio-wrap .trio:nth-child(2) {
+        background: #F7F7F7;
+    }
+
+    main .block .trio-wrap .grey {
+        display: none;
+    }
+
+    main .block ul.partners li {
+        width: 30%;
+        display: inline-block;
+    }
+
+    footer .duo {
+        width: 100%;
+        float: none;
+    }
+}
+
+@media all and (max-width: 700px) {
+    nav ul.menu > li:first-child {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    main .block .reviews ul.sl_items li {
+        width: 26.5%;
+        height: 365px;
+        margin: .8%;
+    }
+
+    main .block .reviews ul.sl_items li.adap {
+        display: none;
+    }
+
+    main .block .bn_slider .sl_container {
+        width: 70%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    main .block .bn_slider ul.sl_items2 {
+        width: 400%;
+    }
+
+    main .block .bn_slider .sl_prv,
+    main .block .bn_slider .sl_nxt {
+        position: absolute;
+        top: 50%;
+        width: 39px;
+        height: 60px;
+        margin-top: -55px;
+        z-index: 10;
+        display: block;
+    }
+
+    main .block .bn_slider .sl_prv {
+        background: url(../img/ar_prv_2.png);
+        background-size: 100% 100%;
+        left: 20px;
+    }
+
+    main .block .bn_slider .sl_nxt {
+        background: url(../img/ar_nxt_2.png);
+        background-size: 100% 100%;
+        right: 20px;
+    }
+
+    main .block .bn_slider .sl_prv:hover {
+        background: url(../img/ar_prv_3.png);
+        background-size: 100% 100%;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    main .block .bn_slider .sl_nxt:hover {
+        background: url(../img/ar_nxt_3.png);
+        background-size: 100% 100%;
+        right: 20px;
+        cursor: pointer;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    main .block .reviews .rv_slider {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 550px) {
+    main .block .fr-wrap .four {
+        width: 100%;
+        float: none;
+        padding: 30px !important;
+    }
+
+    main .block .fr-wrap .four .blue {
+        height: 580px;
+    }
+
+    main .block ul.tags {
+        margin-top: 0;
+        padding: 0;
+    }
+
+    main .block ul.tags li {
+        display: block;
+        padding: 0 10px;
+        margin-bottom: 40px;
+    }
+
+    .mdl .box {
+        width: 400px;
+        height: 400px;
+        margin-top: -200px;
+        margin-left: -200px;
+    }
+
+    main .block .bn_slider .sl_prv,
+    main .block .bn_slider .sl_nxt {
+        width: 33px;
+        height: 50px;
+    }
+
+    main .block .reviews .rv_slider .sl_prv,
+    main .block .reviews .rv_slider .sl_nxt {
+        position: absolute;
+        top: 50%;
+        width: 33px;
+        height: 50px;
+        margin-top: -55px;
+        z-index: 10;
+    }
+
+    main .block .reviews .rv_slider .sl_prv {
+        left: -40px;
+    }
+
+    main .block .reviews .rv_slider .sl_nxt {
+        right: -40px;
+    }
+
+    main .block .reviews .rv_slider .sl_prv:hover {
+        background: url(../img/ar_prv_3.png);
+        background-size: 100% 100%;
+        left: -40px;
+        cursor: pointer;
+    }
+
+    main .block .reviews .rv_slider .sl_nxt:hover {
+        background: url(../img/ar_nxt_3.png);
+        background-size: 100% 100%;
+        right: -40px;
+        cursor: pointer;
+    }
+
+    main .block.profi_cntr h2 {
+        font-size: 32px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    main .block .trio.t1,
+    main .block .trio.t2,
+    main .block .trio.t3 {
+        padding: 0 10px;
+    }
+
+    main .block .trio .blk {
+        margin-bottom: 20px;
+    }
+
+    main .block .trio .blk .txt {
+        font-size: 16px;
+    }
+
+    main .block ul.partners li {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .mdl .box {
+        width: 300px;
+        height: 300px;
+        margin-top: -150px;
+        margin-left: -150px;
+    }
+
+    main .block.photo .back_img .white.bg {
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    main .block .reviews .rv_slider {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    main .block .reviews h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    main .block.profi_cntr h2 {
+        font-size: 30px;
+    }
+
+    main .block.profi_cntr h2 span {
+        display: block;
+    }
+
+    main .block.photo .white.bg,
+    main .block.photo .white.bg span {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    main .block .bn_slider .sl_prv {
+        background: url(../img/ar_prv_2.png);
+        background-size: 100% 100%;
+        left: 10px;
+    }
+
+    main .block .bn_slider .sl_nxt {
+        background: url(../img/ar_nxt_2.png);
+        background-size: 100% 100%;
+        right: 10px;
+    }
+
+    main .block .bn_slider .sl_prv:hover {
+        background: url(../img/ar_prv_3.png);
+        background-size: 100% 100%;
+        left: 10px;
+        cursor: pointer;
+    }
+
+    main .block .bn_slider .sl_nxt:hover {
+        background: url(../img/ar_nxt_3.png);
+        background-size: 100% 100%;
+        right: 10px;
+        cursor: pointer;
+    }
+
+    footer .duo form label[for="message"] {
+        width: 50%;
+    }
+
+    footer .duo form textarea {
+        width: 50%;
+    }
+
+}
+
+@media all and (max-width: 350px) {
+    main .block .reviews ul.sl_items li div.it_txt span:first-child {
+        font-size: 15px;
+    }
+
+    main .block.photo .white.bg,
+    main .block.photo .white.bg span {
+        font-size: 26px;
+        line-height: 1;
+    }
+}
+
+

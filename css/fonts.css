@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "SFUIDisplay";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SFUIDisplay-Regular.ttf") format("truetype");
+  src: url("../fonts/SFUIDisplay-Regular.otf") format("otf");
+  src: url("../fonts/SFUIDisplay-Regular.dfont") format("dfont");
+  src: url("../fonts/SFUIDisplay-Regular.eot") format("eot");
+  src: url("../fonts/SFUIDisplay-Regular.svg") format("svg");
+  src: url("../fonts/SFUIDisplay-Regular.woff") format("woff");
+  src: url("../fonts/SFUIDisplay-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "SFUIDisplay-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SFUIDisplay-Light.ttf") format("ttf");
+  src: url("../fonts/SFUIDisplay-Light.otf") format("otf");
+  src: url("../fonts/SFUIDisplay-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SFUIDisplay-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SFUIDisplay-Bold.ttf") format("ttf");
+  src: url("../fonts/SFUIDisplay-Bold.otf") format("otf");
+  src: url("../fonts/SFUIDisplay-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SFUIDisplay-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SFUIDisplay-Medium.ttf") format("ttf");
+  src: url("../fonts/SFUIDisplay-Medium.otf") format("otf");
+  src: url("../fonts/SFUIDisplay-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SFUIDisplay-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SFUIDisplay-Regular.ttf") format("truetype");
+  src: url("../fonts/SFUIDisplay-Regular.otf") format("otf");
+  src: url("../fonts/SFUIDisplay-Regular.dfont") format("dfont");
+  src: url("../fonts/SFUIDisplay-Regular.eot") format("eot");
+  src: url("../fonts/SFUIDisplay-Regular.svg") format("svg");
+  src: url("../fonts/SFUIDisplay-Regular.woff") format("woff");
+  src: url("../fonts/SFUIDisplay-Regular.woff2") format("woff2");
+}
+
+
+
